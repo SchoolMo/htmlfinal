@@ -1,13 +1,91 @@
 h1 {
-  font-family: 'Special Elite', cursive;
+	font-family: 'Special Elite', cursive;
+  }
+  
+  
+  h2 {
+	font-family: 'Special Elite', cursive;
+  }
+  
+  
+  h5 {
+	font-family: 'Righteous', cursive;
+  }
+
+
+ body {
+	margin: 0;
+	padding: 0;
 }
 
-
-h2 {
-  font-family: 'Special Elite', cursive;
+ nav{
+	background-color: #ffffff;
+	color: #000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0 20px 0;
 }
 
+ nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 12px;
+}
 
-h5 {
-  font-family: 'Righteous', cursive;
+ nav > li > a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ nav > li > a:hover {
+	color:aqua;
+}
+
+ logo {
+	color: #000000;
+	float: left;
+	padding-left: 25px;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+ logo > a {
+	text-decoration: none;
+	color: #000000;
+}
+
+button {
+	display: inline-flex;
+	height: 50px;
+	padding: 0;
+	background: #009578;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: 'Quicksand' , sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+
+}
+
+button:hover {
+	background: rgb(23, 163, 151);
+
+}
+
+button:active {
+	background: #006e80;
+}
+
+button__text,
+button__icon {
+	display: inline-flex;
+	align-items: center;
+	padding: 0 24px;
+	color: #fff
+	height: 100%;
+	
 }
