@@ -1,38 +1,159 @@
- h1 {
-	font-family: 'Special Elite', cursive;
-  }
-  
-  
-  h2 {
-	font-family: 'Special Elite', cursive;
-  }
-  
-  
-  h5 {
-	font-family: 'Righteous', cursive;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Serif:wght@200&family=Special+Elite&display=swap');
 
-
- body {
+*{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	background-color: #24252a;
 }
 
-.wrapper {
-	width: 1170px;
-	margin: auto;
+h1 {
+	font-family: 'Special Elite', cursive;
+	color: #edf0f1;
+	font-size: 80px;
+  }
+
+h2 {
+	color: rgb(207, 166, 166);
+	font-size: 18px;
+	font-family: "Roboto Serif", sans-serif;
+	line-height: 15px;
 }
 
-.nav-area {
-	float: right;
+h3 {
+	color: #edf0f1;
+	font-size: 25px;
+	font-family: "Roboto Serif", sans-serif;
+}
+p {
+	font-size: 15px;
+	font-family: "Roboto Serif", sans-serif;
+	color: #edf0f1;
+}
+
+li, a, button {
+	font-family: "Roboto Serif", sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+	color: #edf0f1;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+
+}
+
+.nav__links {
 	list-style: none;
-	margin-top: 20px;
-	padding: 10px;
+
 }
 
-img {
-	margin: 0%;
-	float: left;
-	margin-top: 0%;
-	padding: 5px;
+.nav__links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+	color: #0088a9;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin-left: 20px;
+}
+
+button:hover {
+	background-color: rgba(0, 136, 169, 0.8);
+
+}
+
+.row {
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+
+.col {
+	flex-basis: 50%;
+}
+.card {
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+
+.card1 {
+	background-image: url(phones/iphone.jpg);
+}
+.card2 {
+	background-image: url(phones/samsung.jpg);
+}
+.card3 {
+	background-image: url(phones/oneplus.jpg);
+}
+.card4 {
+	background-image: url(phones/pixel.jpg);
+	
+}
+
+.card:hover {
+	transform: translateY(-10px);
+}
+
+h5 {
+	color: #edf0f1;
+	text-shadow: 0 0 5px #999;
+}
+
+.card p{
+	text-shadow: 0 0 15px #000;
+	font-size: 10px;
+}
+
+table {
+	color: #0088a9;
+	font-size: 25px;
+	width: 100%;
+
+}
+
+table, th, td {
+	border: 2px solid rgb(230, 56, 56);
+}
+
+.button1 {
+	width: 180px;
+	color: #edf0f1;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #edf0f1;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
 }
